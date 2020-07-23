@@ -4,10 +4,15 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Cards1 from './cards/Cards';
+import Cards from './cards/Cards';
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+    <Cards/>,
+  
   document.getElementById('root')
 );
 
